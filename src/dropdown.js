@@ -9,7 +9,7 @@ function Dropfield(props){
         <div>
             <form>
             <label style={{float:"left"}}>{props.labelName}</label>
-            <select id="inputState" class="form-control" onChange={handleChange}>
+            <select id="inputState" class="form-control" onChange={handleChange} value={name}>
             <option selected>{props.one}</option>
             <option>{props.two}</option>
             <option>{props.three}</option>
