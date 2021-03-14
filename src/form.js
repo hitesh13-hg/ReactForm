@@ -107,6 +107,8 @@ function Myform(){
         </div>
         </div>
         <Datep />
+        <br></br>
+        <button type="submit" class="btn btn-primary">Submit</button>
     </form>
     
     </div>
