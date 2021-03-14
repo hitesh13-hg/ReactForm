@@ -9,7 +9,7 @@ function Entryfield(props){
             <form>
             <label style={{float:"left"}} for="inputent">{props.labelName}</label>
             <input onChange={handleChange}
-            type={props.dataType} class="form-control" id="inputent"  />
+            type={props.dataType} class="form-control" id="inputent" value={name} />
             
             </form>
         </div>
